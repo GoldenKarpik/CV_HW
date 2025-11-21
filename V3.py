@@ -31,3 +31,4 @@ model = ControllingParams(3, 10)
 T_P = sum(p.numel() for p in model.parameters())
 print(T_P)
 
+
